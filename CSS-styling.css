@@ -1,5 +1,6 @@
-body{
 
+
+body {
     background-color: #778899;          /* #C2DBD6;*/
 }
 
@@ -8,25 +9,80 @@ h1 {
     color: #F0F0F0;
     font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
-    
+    margin-bottom: 30px;
+   
 }
-.center {
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+/* CLASSES */
+.body-text {
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     border: 3px solid black;
-    width: 80%;
-    line-height: 14.0px; font: 12.0px Menlo;
+    line-height: 1.2em; 
+    font-size: 16px;
     background-color: #F0F0F0;
-    height: 100px;
+    padding: .5em;
+    padding-right: 20px;
+    padding-left: 20px;
+    word-spacing: 1px;
+    width: 80%;
+    border-radius: 15px;
+    
+}
+
+.heading {
+    color: #585858;
+    margin: 0px;
+    
+}
+.center {
     text-align: center;
     margin: auto;
-    padding: 10px;
 
 }
 
-img {
+.img-border {
     display: block;
     margin: 0 auto;
     border: 4px solid #F0F0F0;
-    
+    margin-bottom: 30px;
+    border-radius: 15px;
 }
+
+.link-row {
+    margin: 30px;
+    text-align: center;
+}
+
+.seperator {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #585858;
+    font-size: 16px;
+    margin: 1em;
+}
+
+
+/* ID's */
+#link-seperator {
+    margin: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#link-seperator a {
+    padding: 5px;
+    border-right: solid #585858;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#link-seperator a:last-child {
+    border-right: none;
+}
+
